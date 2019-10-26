@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-bg-color: #2473c7;
+    --main-txt-color: #d7d7d7d7;
+    --main-padding: 15px;
+    --main-inputs-bg-color: #ebebeb;
+    --main-font: hack;
+    --main-dark-color: #040240;
+    --main-btn-bg-color: #044BD9;
+    --main-color-black: #000;
+    --main-color-white: #fff;
+}
+
+body {
+    color: var(--main-txt-color);
+    font-family: sans-serif;
+    background: var(--main-bg-color);
+}
+
+.main {
+    width: 60%;
+    margin: auto;
+    background: var(--main-bg-color);
+}
+
+/* Navigation Section */
+
+#navbar {
+    display: flex;
+    justify-content: center;
+}
+
+#navbar a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--main-txt-color);
+}
+
+#navbar ul {
+    padding: 10px;
+}
+
+#navbar li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px 5px;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+
+/* Card section */
+
+.card {
+    display: flex;
+    background: var(--main-bg-color);
+    padding: 40px;
+    margin: auto;
+    color: var(--main-txt-color);
+    text-align: center;
+    height: 100vh;
+}
+
+.welcome-section {
+    height: 100vh;
+}
+
+.profile-image {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+}
+
+hr {
+    width: 15%;
+    margin: 5px auto;
+}
+
+.info {
+    padding: 10px;
+}
+
+.typo {
+    width: 80%;
+    margin: auto;
+}
+
+#profile {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 5px;
+}
+
+#profile i {
+    color: var(--main-color-white);
+}
+
+
+
+/* Project Section */
+#projects {
+    display: grid;
+    color: var(--main-dark-color);
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.image-div img {
+    width: 200px;
+    height: auto;
+}
+
+
+
+
+@media (min-width: 1281px) {}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .main {
+        width: 70%;
+    }
+     .card {
+         display: grid;
+         background: var(--main-bg-color);
+         padding: 40px;
+         margin: auto;
+         color: var(--main-txt-color);
+         text-align: center;
+         height: 100vh;
+     }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .main {
+        width: 70%;
+    }
+   
+    .card {
+          display: grid;
+          background: var(--main-bg-color);
+          padding: 40px;
+          margin: auto;
+          color: var(--main-txt-color);
+          text-align: center;
+          height: 100vh;
+    }
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .main {
+        width: 80%;
+    }
+
+        .card {
+            display: grid;
+            background: var(--main-bg-color);
+            padding: 40px;
+            margin: auto;
+            color: var(--main-txt-color);
+            text-align: center;
+            height: 100vh;
+        }
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .main {
+        width: 80%;
+    }
+    .card {
+        display: grid;
+        background: var(--main-bg-color);
+        padding: 40px;
+        margin: auto;
+        color: var(--main-txt-color);
+        text-align: center;
+        height: 100vh;
+    }
+
+}
