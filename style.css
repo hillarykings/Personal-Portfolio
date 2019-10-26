@@ -50,7 +50,7 @@ body {
     list-style: none;
     text-decoration: none;
     padding: 10px 5px;
-    font-size: 2em;
+    font-size: 1.8em;
     font-family: sans-serif;
 }
 
@@ -79,7 +79,7 @@ body {
 }
 
 hr {
-    width: 15%;
+    width: 45%;
     margin: 5px auto;
 }
 
@@ -122,6 +122,8 @@ hr {
 .image-div {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        margin: auto;
 }
 
 .image-div img {
@@ -158,7 +160,7 @@ hr {
 }
 
 .footer-section i {
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
 
 .footer-section small {
@@ -226,10 +228,9 @@ hr {
 @media (min-width: 768px) and (max-width: 1024px) {
 
     .main {
-        width: 100%;
+        width:100%;
     }
      .card {
-         width: 60%;
          padding: 40px;
          margin: auto;
          color: var(--main-txt-color);
@@ -237,7 +238,7 @@ hr {
          height: 100vh;
      }
      hr {
-         width: 25%;
+         width: 40%;
          margin: 5px auto;
      }
 
@@ -262,7 +263,7 @@ hr {
           height: 100vh;
     }
     hr {
-        width: 25%;
+        width: 40%;
         margin: 5px auto;
     }
 
@@ -287,13 +288,21 @@ hr {
             height: 100vh;
         }
         hr {
-            width: 35%;
+            width: 80%;
             margin: 5px auto;
         }
         .image-div {
             display: grid;
             grid-template-columns: 1fr 1fr
         }
+         .info {
+             padding: 10px;
+             font-size: 1.2em;
+         }
+
+         .social-profile {
+             font-size: 1.1em;
+         }
 
 }
 
@@ -315,7 +324,7 @@ hr {
         height: 100vh;
     }
     hr {
-        width: 45%;
+        width: 80%;
         margin: 5px auto;
     }
 
@@ -323,4 +332,13 @@ hr {
         display: grid;
         grid-template-columns: 1fr
     }
+    .info {
+        padding: 10px;
+        font-size: 1.2em;
+    }
+
+    .social-profile {
+        font-size: 1.1em;
+    }
+
 }
