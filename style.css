@@ -65,7 +65,7 @@ body {
     margin: auto;
     color: var(--main-txt-color);
     text-align: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 .welcome-section {
@@ -79,7 +79,7 @@ body {
 }
 
 hr {
-    width: 45%;
+    width: 30%;
     margin: 5px auto;
     border: 1px solid #fff;
 }
@@ -224,7 +224,10 @@ hr {
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {}
-
+     hr {
+         width: 60%;
+         margin: 5px auto;
+     }
 /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
@@ -240,7 +243,7 @@ hr {
          margin: auto;
          color: var(--main-txt-color);
          text-align: center;
-         height: 100vh;
+         height: 90vh;
      }
      hr {
          width: 40%;
@@ -265,10 +268,10 @@ hr {
           margin: auto;
           color: var(--main-txt-color);
           text-align: center;
-          height: 100vh;
+          height: 90vh;
     }
     hr {
-        width: 40%;
+        width: 60%;
         margin: 5px auto;
     }
 
@@ -290,10 +293,10 @@ hr {
             margin: auto;
             color: var(--main-txt-color);
             text-align: center;
-            height: 100vh;
+            height: 90vh;
         }
         hr {
-            width: 80%;
+            width: 60%;
             margin: 5px auto;
         }
         .image-div {
@@ -326,10 +329,10 @@ hr {
         margin: auto;
         color: var(--main-txt-color);
         text-align: center;
-        height: 100vh;
+        height: 90vh;
     }
     hr {
-        width: 80%;
+        width: 60%;
         margin: 5px auto;
     }
 
