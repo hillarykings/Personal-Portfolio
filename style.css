@@ -50,7 +50,7 @@ body {
     list-style: none;
     text-decoration: none;
     padding: 10px 5px;
-    font-size: 1.2em;
+    font-size: 2em;
     font-family: sans-serif;
 }
 
@@ -61,7 +61,6 @@ body {
     display: flex;
     align-items: center;
     width: 60%;
-    background: var(--main-bg-color);
     padding: 40px;
     margin: auto;
     color: var(--main-txt-color);
@@ -86,17 +85,22 @@ hr {
 
 .info {
     padding: 10px;
+    font-size: 2em;
 }
 
-.typo {
+/* .typo {
     width: 80%;
     margin: auto;
+} */
+.social-profile {
+    font-size: 1.5em;
 }
 
 #profile {
     list-style: none;
     display: inline-block;
     padding: 10px 5px;
+    font-size: 2em;
 }
 
 #profile i {
@@ -138,6 +142,70 @@ hr {
     color: var(--main-txt-color2);
 }
 
+/* Footer section */
+
+.footer-section {
+    background: var(--main-dark-color);
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    min-height: 200px;
+}
+
+.footer-section h3 {
+    font-size: 3.5em;
+    padding: 20px;
+}
+
+.footer-section i {
+    font-size: 2.5em;
+}
+
+.footer-section small {
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.footer-section footer {
+    padding: 20px;
+}
+
+.footer-div {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Footer contact form section */
+
+.form-group label {
+    display: block;
+    padding: 5px;
+}
+
+.form-control {
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background: var(--main-inputs-bg-color);
+}
+
+#form-submit {
+    justify-items: center;
+    width: 40%;
+    border: none;
+    background: var(--main-btn-bg-color);
+    color: var(--main-txt-color);
+    font-size: 1.1em;
+    border-radius: 5px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+#textarea {
+    height: 80px;
+}
 
 
 
@@ -162,8 +230,6 @@ hr {
     }
      .card {
          width: 60%;
-         display: grid;
-         background: var(--main-bg-color);
          padding: 40px;
          margin: auto;
          color: var(--main-txt-color);
@@ -189,8 +255,6 @@ hr {
     }
    
     .card {
-          display: grid;
-          background: var(--main-bg-color);
           padding: 40px;
           margin: auto;
           color: var(--main-txt-color);
@@ -216,7 +280,6 @@ hr {
     }
 
         .card {
-            background: var(--main-bg-color);
             padding: 40px;
             margin: auto;
             color: var(--main-txt-color);
@@ -245,7 +308,6 @@ hr {
         width: 100%;
     }
     .card {
-        background: var(--main-bg-color);
         padding: 40px;
         margin: auto;
         color: var(--main-txt-color);
