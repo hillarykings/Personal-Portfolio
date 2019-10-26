@@ -81,11 +81,16 @@ body {
 hr {
     width: 45%;
     margin: 5px auto;
+    border: 1px solid #fff;
 }
 
 .info {
     padding: 10px;
     font-size: 2em;
+}
+
+.info h1 {
+    color: #fff;
 }
 
 /* .typo {
