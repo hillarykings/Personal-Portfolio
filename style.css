@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -198,8 +199,7 @@ hr {
 }
 
 #form-submit {
-    justify-items: center;
-    width: 40%;
+    width: 100%;
     border: none;
     background: var(--main-btn-bg-color);
     color: var(--main-txt-color);
